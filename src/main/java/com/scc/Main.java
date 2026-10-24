@@ -27,7 +27,7 @@ public class Main {
                 System.out.print("Enter password: ");
                 String pass = sc.nextLine();
 
-                System.out.print("Select Role [1] TEACHER | [2] STUDENT: ");
+                System.out.print("Select Role [1] TEACHER | [2] ADMIN: ");
                 int roleChoice = sc.nextInt();
                 sc.nextLine(); // Consume newline left-over
                 String role;
@@ -36,7 +36,7 @@ public class Main {
                         role = "TEACHER";
                         break;
                     case 2:
-                        role = "STUDENT";
+                        role = "ADMIN";
                         break;
                     default:
                         role = null;
